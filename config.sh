@@ -31,3 +31,5 @@ echo -e "DEVICE=br3\n
 TYPE=OVSBridge\n
 ONBOOT=yes\n
 BOOTPROTO=DHCP\n" > /etc/sysconfig/network-scripts/ifcfg-br3
+
+echo "ovs-vsctl add-port name"
